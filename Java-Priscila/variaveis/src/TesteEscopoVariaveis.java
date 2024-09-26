@@ -2,11 +2,12 @@
 public class TesteEscopoVariaveis {
 
 	public static void main(String[] args) {
-	int a = 1;
-	int b = 1;
-	if(a==1) {
-		b++;
+		int i = 0;
+		if (i <= 0) {
+			System.out.println(i);
+			i = i + 1;
+			System.out.println(i);
+		}
+		System.out.println("FIM");
 	}
-	System.out.println("b = " + b);
-  }
 }

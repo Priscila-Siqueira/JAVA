@@ -6,11 +6,11 @@ public class TesteIfElseifElse1 {
 		System.out.println("a = " + a);
 		if (a>=10) {
 			System.out.println("a é maior ou igual a 10");
-		}else if (a>=8) {
+		} else if (a>=8) {
 			System.out.println("a é maior ou igual a 8");
-		}else if (a>=5) {
+		} else if (a>=5) {
 			System.out.println("a é maior ou igual a 5");
-		}else {
+		} else {
 			System.out.println("a é menir 5");
 		}
 	}

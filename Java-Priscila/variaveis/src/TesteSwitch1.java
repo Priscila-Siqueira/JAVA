@@ -4,10 +4,10 @@ public class TesteSwitch1 {
 	public static void main(String[] args) {
 		int numero = 1;
 		switch (numero) {
-		case 1: 
+		case 3: 
 			System.out.println("variável numero igual a 1");
 			break; 
-		case 2: 
+		case 4: 
 			System.out.println("variável numero igual a 2");
 			break;
 		default:
@@ -17,3 +17,4 @@ public class TesteSwitch1 {
 	}
 
 }
+

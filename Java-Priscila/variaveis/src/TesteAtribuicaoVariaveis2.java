@@ -2,7 +2,7 @@
 public class TesteAtribuicaoVariaveis2 {
 
 	public static void main(String[] args) {
-		//Definição de variáveis
+//		Definição de variáveis
 		boolean g = true;
 		char c = '1';
 		byte b = 0;
@@ -11,7 +11,8 @@ public class TesteAtribuicaoVariaveis2 {
 		long l = 0;
 		float f = 0;
 		double d = 0;
-		//Exibição de variáveis
+		
+//		Exibição de variáveis
 		System.out.println("g="+g);
 		System.out.println("c="+c);
 		System.out.println("b="+b);
@@ -20,6 +21,10 @@ public class TesteAtribuicaoVariaveis2 {
 		System.out.println("l="+l);
 		System.out.println("f="+f);
 		System.out.println("d="+d);
+		
+		
+		
 	}
+	
 
 }
