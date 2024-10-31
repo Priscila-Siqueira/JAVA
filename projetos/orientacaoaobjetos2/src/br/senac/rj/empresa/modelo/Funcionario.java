@@ -5,7 +5,7 @@ public class Funcionario {
 	public String nome;
 	public int cargo;
 	public double salario;
-
+	
 	public void aplicarBonificacao() {
 		double bonificacao;
 		switch (this.cargo) {
