@@ -1,17 +1,21 @@
 package br.senac.rj.teste;
 
-public class Conta {
+public abstract class Conta {
 
 		private int agencia;
 		private int numero;
 		private String titular;
-		private double saldo;
+		protected double saldo;
+		public static int totalConta;
 		
-		Conta (){
+		Conta (){  //construtor padrão
 			this.titular = "";
+			System.out.println("Construtor da classe conta ");
+			Conta.totalConta++;
 		}
 		
-		Conta (int numAgencia, int numConta){
+		Conta (int numAgencia, int numConta){ // construtor não padrão
+			this(); //se refere ao construtor padrão
 			this.agencia = numAgencia;
 			this.numero = numConta;
 		}
@@ -45,12 +49,12 @@ public class Conta {
 			this.saldo = this.saldo + valor;
 		}
 		
-		public boolean saca(double valor) {
-			double novoSaldo = this.saldo - valor;
-			if (novoSaldo < 0)
-				return false;
-			this.saldo = novoSaldo;
-			return true;
-		}
+		public abstract boolean saca(double valor);
+//	double novoSaldo = this.saldo - valor;
+//	if (novoSaldo < 0)
+//				return false;
+//			this.saldo = novoSaldo;
+//			return true;
+//		}
 		
-}
+ }

@@ -11,7 +11,7 @@ public class TesteArray1 {
 		meuArray1[2] = 30;
 		meuArray1[3] = 40;
 		System.out.println("Tamanho de meuArray1 = " + meuArray1.length);
-		for (int i=0; i<meuArray1.length; i++) {
+		for (int i=0; i < meuArray1.length; i++) {
 			System.out.println("meuArray1["+i+"]=" + meuArray1[i]);
 		}
 		System.out.println("meuArray1 = " + Arrays.toString(meuArray1));
