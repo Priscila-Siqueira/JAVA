@@ -18,6 +18,7 @@ public class TesteHeranca1 {
 		System.out.println("Número  da conta corrente especial:" + cce1.getNumero()); //Linha incluída");
 		System.out.println("Titular  da conta corrente especial:" + cce1.getTitular()); //Linha incluída");
 		cce1.setLimite(limite);
+		
 		if (!cce1.saca(valorSaque, 10))
 			System.out.println("Não foi possível efetuar saque na conta corrente especial!");
 		else

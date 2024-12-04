@@ -6,6 +6,7 @@ public abstract class Conta {
 		private int numero;
 		private String titular;
 		protected double saldo;
+		
 		public static int totalConta;
 		
 		Conta (){  //construtor padrão
@@ -45,6 +46,7 @@ public abstract class Conta {
 		public double getSaldo() {
 			return saldo;
 		}
+		
 		public void deposita(double valor) {
 			this.saldo = this.saldo + valor;
 		}

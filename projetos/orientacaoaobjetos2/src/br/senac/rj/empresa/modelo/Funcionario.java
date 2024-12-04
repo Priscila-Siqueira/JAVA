@@ -5,6 +5,16 @@ public class Funcionario {
 	public String nome;
 	public int cargo;
 	public double salario;
+	private double bonificacao;
+	
+	
+	public double getBonificacao() {
+		return bonificacao;
+	}
+	//public void setbonificacao(double Valorbonificacao) {
+		//this.bonificacao = this.bonificacao + Valorbonificacao;
+	//}
+	
 	
 	public void aplicarBonificacao() {
 		double bonificacao;
