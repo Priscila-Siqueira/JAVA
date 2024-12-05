@@ -11,19 +11,23 @@ public class Funcionario {
 		
 	}
 	
-	public Funcionario(int registro, String nome, int cargo, double salario) { // construtor não padrão
+	public Funcionario(int registro, String nome, int cargo, double salario) { // construtor para analista sem bonificao
 		this.registro = registro;
 		this.nome = nome;
 		this.cargo = cargo;
 		this.salario = salario;
 	}
+	
+	public Funcionario(int registro, String nome, int cargo, double salario, double bonificacao) { // construtor para gerente com bonificao
+		this.registro = registro;
+		this.nome = nome;
+		this.cargo = cargo;
+		this.salario = salario;
+		this.bonificacao = bonificacao;
+	}
 
 	public double getBonificacao() {
 		return bonificacao;
-	}
-	
-	public void setBonificacao(double bonificacao) {
-		this.bonificacao = bonificacao;
 	}
 	
 	public void aplicarBonificacao() {
