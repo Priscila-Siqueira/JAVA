@@ -1,0 +1,14 @@
+package br.senac.rj.av2.modelo;
+
+public class Mesa extends Moveis {
+
+	public Mesa(String tipo, String nome, Double desconto) {
+		super(tipo, nome, desconto);
+	}
+	
+	public void calcularPercentual() {
+		double valorCalculo = getDesconto() * 0.1;
+		this.setDesconto(valorCalculo + getDesconto());
+	}
+	
+}

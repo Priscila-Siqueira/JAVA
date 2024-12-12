@@ -1,0 +1,41 @@
+package br.senac.rj.av2.modelo;
+
+public class Moveis {
+	private String tipo;
+	private String nome;
+	private double desconto;
+
+	public Moveis() {
+	}
+
+	public Moveis(String tipo, String nome, double desconto) {
+		this.tipo = tipo;
+		this.nome = nome;
+		this.desconto = desconto;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getDesconto() {
+		return desconto;
+	}
+
+	public void setDesconto(double desconto) {
+		this.desconto = desconto;
+	}
+
+}

@@ -1,0 +1,39 @@
+package br.senac.rj.av2.teste;
+
+import java.util.Scanner;
+
+public class Menu {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int opcao;
+		
+		String tipo;
+		String nome;
+		Double desconto;
+		
+		do {
+			System.out.println("Menu - Escolha uma opção: \n"
+					+ "1 – Cadastrar os atributos da subclasse \n"
+					+ "2 – Aplicar percentual a ser definido \n "
+					+ "3 – Aplicar percentual fixo de 10% \n"
+					+ "4 – Exibir os atributos da subclasse \n"
+					+ "5 – Encerrar o programa \n"
+					);
+			
+			opcao = Integer.parseInt(sc.nextLine());
+			
+//			System.out.println("Entre com o nome do móvel:");
+//			nome = sc.nextLine();
+//			
+//			System.out.println("Entre com desconto do móvel:");
+//			desconto = Double.parseDouble(sc.nextLine());
+//			
+			
+		} while (true);
+
+	}
+
+}

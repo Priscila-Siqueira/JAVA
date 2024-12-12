@@ -1,0 +1,32 @@
+package br.senac.rj.av2.teste;
+
+import java.util.Scanner;
+
+public class Menu {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String resposta;
+		
+		String tipo;
+		String nome;
+		Double desconto;
+		
+		do {
+			System.out.println("Entre com o tipo do móvel:");
+			tipo = sc.nextLine();
+			
+			System.out.println("Entre com o nome do móvel:");
+			nome = sc.nextLine();
+			
+			System.out.println("Entre com desconto do móvel:");
+			desconto = Double.parseDouble(sc.nextLine());
+			
+			
+		} while (true);
+
+	}
+
+}
